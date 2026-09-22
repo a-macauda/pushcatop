@@ -63,19 +63,19 @@ let temp = prompt('inserire gradi')
 let zona;
 switch(true) {
     case temp < -10:
-        esito = 'copriti…ancora ti raffreddite'
+        zona = 'copriti…ancora ti raffreddite'
         break;
     case temp > -10 && temp < 0:
-        esito = "non è tanto il freddo quanto l'umidità"
+        zona = "non è tanto il freddo quanto l'umidità"
         break;
     case temp >= 0 && temp < 20:
-        esito = 'non ci ono più le mezze stagioni'
+        zona = 'non ci ono più le mezze stagioni'
         break;
     case temp >= 20 && temp < 30:
-        esito = 'mi dia una peroni sudata'
+        zona = 'mi dia una peroni sudata'
         break;
     case temp >= 30:
-        esito = 'lu mare, lu sole, lu ientu'
+        zona = 'lu mare, lu sole, lu ientu'
         break;
 default:
      zona = 'valore non valido'
